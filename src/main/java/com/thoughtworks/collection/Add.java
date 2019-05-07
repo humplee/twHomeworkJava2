@@ -36,7 +36,7 @@ public class Add {
     public int getSumTripleAndAddTwo(List<Integer> arrayList) {
         int sum=0;
         for(int i=0;i<arrayList.size();i++){
-            sum+=(arrayList.get(i)+2);
+            sum+=(arrayList.get(i)*3+2);
         }
         return sum;
         //throw new NotImplementedException();
